@@ -1,38 +1,24 @@
 ---
 title: Hello World
+date: 2026-04-26 18:50:00
+tags:
+  - 随笔
 ---
-Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
 
-## Quick Start
+这是从 Obsidian 同步过来的第一篇博客文章！
 
-### Create a new post
+如果你能看到这篇文章，说明 GitHub Actions 同步已经配置成功了。
 
-``` bash
-$ hexo new "My New Post"
+## 测试内容
+
+- 列表项 1
+- 列表项 2
+- 列表项 3
+
+> 这是一段引用文字。
+
+```python
+print("Hello from Obsidian!")
 ```
 
-More info: [Writing](https://hexo.io/docs/writing.html)
-
-### Run server
-
-``` bash
-$ hexo server
-```
-
-More info: [Server](https://hexo.io/docs/server.html)
-
-### Generate static files
-
-``` bash
-$ hexo generate
-```
-
-More info: [Generating](https://hexo.io/docs/generating.html)
-
-### Deploy to remote sites
-
-``` bash
-$ hexo deploy
-```
-
-More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
+祝写作愉快！
