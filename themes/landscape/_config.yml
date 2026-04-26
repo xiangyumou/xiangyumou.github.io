@@ -15,15 +15,14 @@ subtitle:
 # Each name must correspond to the icon name of Fork Awesome
 # https://forkaweso.me/Fork-Awesome/icons/
 links:
-#  github: https://github.com/your_github_account
-#  twitter: https://twitter.com/your_twitter_account
-#  telegram: https://t.me/your_telegram_account
+  github: https://github.com/Xiangyu-Labs
+  envelope: mailto:me@xiangyu.pro
 
 # ===============
 # Content
 # ===============
 # "Read More" link at the bottom of excerpted articles. `false` to hide the link.
-excerpt_link: Read More
+excerpt_link: Read article →
 # Enable fancybox
 fancybox: true
 
@@ -41,7 +40,7 @@ copyright:
 # Sidebar
 # ===============
 # Sidebar style. You can choose `left`, `right`, `bottom` or `false`.
-sidebar: right
+sidebar: false
 # Widgets displaying in sidebar
 widgets:
 - category

@@ -48,23 +48,21 @@
 
 #page-nav
   clearfix()
-  margin: block-margin auto
-  background: var(--surface)
-  border: 1px solid color-border
-  border-radius: var(--radius-lg)
+  margin: 48px auto
   text-align: center
   color: color-grey
-  overflow: hidden
   a, span
-    padding: 10px 20px
+    padding: 10px 16px
     line-height: 1
-    height: 2ex
+    font-size: 14px
   a
-    color: color-grey
+    color: var(--muted)
     text-decoration: none
+    border-radius: var(--radius-md)
+    transition: all 0.2s
     &:hover
-      background: var(--surface2)
       color: var(--text)
+      background: var(--surface2)
   .prev
     float: left
   .next
@@ -74,7 +72,9 @@
     @media mq-mobile
       display: none
   .current
-    color: color-default
+    color: var(--text)
     font-weight: 600
+    background: var(--surface2)
+    border-radius: var(--radius-md)
   .space
     color: color-border

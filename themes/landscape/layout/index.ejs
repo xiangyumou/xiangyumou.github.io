@@ -1,1 +1,17 @@
+<% if (site.posts.length){ %>
+  <div id="hero">
+    <div class="hero-avatar">
+      <img src="/images/avatar.png" alt="<%= config.author || config.title %>">
+    </div>
+    <h1 class="hero-title"><%= config.author || config.title %></h1>
+    <p class="hero-desc"><%= config.description || 'Building things, writing about it.' %></p>
+    <div class="hero-links">
+      <% if (theme.links) { %>
+        <% for (const i in theme.links) {%>
+          <a class="hero-link" href="<%- url_for(theme.links[i]) %>"><span class="fa fa-<%= i %>"></span></a>
+        <% } %>
+      <% } %>
+    </div>
+  </div>
+<% } %>
 <%- partial('_partial/archive', {expand: true, index: true}) %>
